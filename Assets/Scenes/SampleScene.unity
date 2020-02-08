@@ -910,6 +910,7 @@ GameObject:
   - component: {fileID: 867585103}
   - component: {fileID: 867585102}
   - component: {fileID: 867585101}
+  - component: {fileID: 867585104}
   m_Layer: 5
   m_Name: Button2Text
   m_TagString: Untagged
@@ -991,6 +992,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 867585104}
+        m_MethodName: DisableForSeconds
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &867585102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1027,6 +1039,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 867585099}
   m_CullTransparentMesh: 0
+--- !u!114 &867585104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867585099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9686ba79cc72cc4fa0c60097c3760fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &875028698
 GameObject:
   m_ObjectHideFlags: 0
